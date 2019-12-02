@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@xml/layout_border"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--activity_my_wallet의 listview에 들어갈 의 view들-->
+    <ImageView
+        android:id="@+id/logoIv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/rankTv"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/logoIv"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"/>
+
+</RelativeLayout>
